@@ -1,6 +1,9 @@
 name: 'Generate Octoscope Report'
 description: 'Generates a github actions usage report using octoscope gh cli extension.'
 author: 'noamtamir'
+branding:
+  icon: 'activity'
+  color: 'blue'
 runs:
   using: 'composite'
   steps:
