@@ -14,8 +14,10 @@ runs:
   using: 'composite'
   steps:
     - name: Install Octoscope gh extension
-      run: gh extension install noamtamir/gh-octoscope || echo "Extension already installed"
+      run: gh extension install noamtamir/gh-octoscope
       shell: bash
+      env:
+        GH_TOKEN: ${{ github.token }}
 
     - name: Generate Octoscope Report
       run: gh octoscope report
