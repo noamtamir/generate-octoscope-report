@@ -35,3 +35,4 @@ jobs:
 
 ## More information
 You can get more information about octoscope gh extension in the [extension repo](https://github.com/noamtamir/gh-octoscope).
+If you wish to permenantly delete your data you can do so with the extension: `gh octoscope report delete <report_id>`. More information can be found in the link above.
